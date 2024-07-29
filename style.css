@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.karla-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.video-container {
+  position: absolute;
+  width: 650px;
+  height: 450px;
+}
+.video-content {
+  z-index: 1;
+  color: aliceblue;
+  
+
+}
+.video-content h1 {
+  font-size: 40px;
+}
+.video-content a{
+  color: azure;
+  font-size: 20px;
+  background-color: rgba(21, 228, 107, 0.575);
+  padding: 4px;
+  text-decoration: none;
+}
+.video-content a:hover{
+text-decoration: underline;
+}
+.cul1,.cul2,.cul3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pera1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4ch;
+}
+.img1{
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.pic1{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+.wayanad,.munnar,.varkala,.kollam{
+  margin-right: 70px;
+  margin-top: 20px;
+
+}
+.about{
+  color: red;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+.foot{
+  text-align: center;
+  font-size: 50px;
+}
+.butten a{
+  background-color: rgb(158, 65, 65);
+  color: azure;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.butten a:hover{
+  text-decoration: underline;
+  color: rgba(238, 215, 10, 0.719);
+}
